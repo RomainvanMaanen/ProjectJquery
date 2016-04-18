@@ -1,5 +1,8 @@
 ﻿body {
-    border:0px;
+    background-image:url("Files/background.png");
+    background-repeat:repeat-x;
+    background-position:bottom;
+    background-attachment:fixed;
 }
 p{
     color:white;
