@@ -1,10 +1,17 @@
 ﻿body {
+    background-image:url("Files/background.png");
+    background-repeat:repeat-x;
+    background-position:bottom;
+    background-attachment:fixed;
+}
+p{
+    color:white;
 }
 #MainWrapper {
     margin: auto;
     height: auto;
     width: 900px;
-    background-color: greenyellow;
+    background-color: darkgray;
     border: 1px dashed black;
 }
 #HRM_Wrapper {
@@ -21,87 +28,155 @@
 }
 #bedrijf_Wrapper {
     position: relative;
-    height: 300px;
+    height: 320px;
     width: 900px;
     border: 1px solid black;
 }
 #Marketing_Wrapper {
     position: relative;
-    height: 300px;
+    height: 320px;
     width: 900px;
     border: 1px solid black;
 }
+#CVO_main{
+    width: 0; 
+	height: 0; 
+	border-left: 240px solid transparent;
+	border-right: 240px solid transparent;
+	border-bottom: 240px solid black;
+    margin-left:120px;
+}
 #HRM_main {
     position: absolute;
-    left: 100px;
+    left: 120px;
     top:0px;
     border: 1px solid black;
     height: 300px;
-    width:500px;
+    width:480px;
 }
 
 #HRM_sub {
     position: absolute;
-    left: 700px;
+    left: 600px;
     top: 0px;
     border: 1px solid black;
     height: 300px;
+    width:300px;
 }
 #Onderwijs_main {
     position: absolute;
-    left: 100px;
+    left: 120px;
     top:0px;
     border: 1px solid black;
     height: 300px;
-    width:250px;
+    width:240px;
 }
 #Onderwijs_main2 {
     position: absolute;
-    left: 350px;
+    left: 360px;
     top:0px;
     border: 1px solid black;
     height: 300px;
-    width:250px;
-}
-#Onderwijs_sub {
-    position: absolute;
-    height: 300px;
-    left: 750px;
-    top: 0px;
-    border: 1px solid black;
+    width:240px;
 }
 #Onderwijs_sub2 {
     position: absolute;
     height: 300px;
     left: 600px;
     top: 0px;
+    width:150px;
+    border: 1px solid black;
+}
+#Onderwijs_sub {
+    position: absolute;
+    height: 300px;
+    left: 750px;
+    top: 0px;
+    width:150px;
     border: 1px solid black;
 }
 #Bedrijf_main {
     position: absolute;
-    left: 100px;
+    left: 120px;
     top:0px;
     border: 1px solid black;
-    height: 300px;
-    width:500px;
+    height: 320px;
+    width:480px;
 }
 #Bedrijf_sub {
     position: absolute;
-    left: 700px;
+    left: 600px;
     top: 0px;
+    height: 320px;
+    width:300px;
     border: 1px solid black;
 }
 #Marketing_main {
     position: absolute;
-    left: 100px;
+    left: 120px;
     top:0px;
     border: 1px solid black;
-    height: 300px;
-    width:500px;
+    height: 320px;
+    width:480px;
 }
 #Marketing_sub {
     position: absolute;
-    left: 700px;
+    left: 600px;
     top: 0px;
+    height: 320px;
+    width:300px;
     border: 1px solid black;
+}
+
+
+#HRM_ID{
+    position:absolute;
+    height:300px;
+    width:120px;
+    border:1px dotted red;
+}
+#HRM_ID p{
+    height:18px;
+    width:120px;
+    margin-top:132px;
+    text-align: center;
+}
+
+#Onderwijs_ID{
+    position:absolute;
+    height:300px;
+    width:120px;
+    border:1px dotted red;
+}
+#Onderwijs_ID p{
+    height:18px;
+    width:120px;
+    margin-top:132px;
+    text-align: center;
+}
+
+#bedrijf_ID{
+    position:absolute;
+    height:320px;
+    width:120px;
+    border:1px dotted red;
+}
+#bedrijf_ID p{
+    height:18px;
+    width:120px;
+    margin-top:142px;
+    text-align: center;
+}
+
+#Marketing_ID{
+    position:absolute;
+    height:320px;
+    width:120px;
+    border:1px dotted red;
+}
+#Marketing_ID p{
+    height:18px;
+    width:120px;
+    margin-top:142px;
+    text-align: center;
 }
