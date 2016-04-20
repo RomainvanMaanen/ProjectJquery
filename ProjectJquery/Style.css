@@ -38,14 +38,14 @@ p{
     width: 900px;
     border: 1px solid black;
 }
-#CVO_main{
+/*#CVO_main{ 
     width: 0; 
 	height: 0; 
 	border-left: 240px solid transparent;
 	border-right: 240px solid transparent;
 	border-bottom: 240px solid black;
     margin-left:120px;
-}
+}*/
 #HRM_main {
     position: absolute;
     left: 120px;
@@ -179,4 +179,16 @@ p{
     width:120px;
     margin-top:142px;
     text-align: center;
+}
+
+#test p{
+    background-color:slategray;
+    border-radius:10px;
+}
+
+#test1{
+    background-color:green;
+}
+#test2{
+    background-color:darkgreen;
 }
