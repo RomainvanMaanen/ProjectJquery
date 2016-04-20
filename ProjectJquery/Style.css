@@ -180,3 +180,11 @@ p{
     margin-top:142px;
     text-align: center;
 }
+
+.clickable{
+    cursor:pointer;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
