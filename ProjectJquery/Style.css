@@ -7,6 +7,7 @@
 p{
     color:white;
     font-family: Arial,sans-serif;
+
 }
 #MainWrapper {
     margin: auto;
@@ -40,7 +41,6 @@ p{
     position: relative;
     height: 220px;
     width: 900px;
-    margin-bottom:900px;
 }
 #HRM_main {
     background-color: rgb(84,176,203);
@@ -49,6 +49,7 @@ p{
     top:0px;
     height: 300px;
     width:480px;
+    padding-top:15px;
 }
 
 #HRM_sub {
@@ -58,6 +59,7 @@ p{
     top: 0px;
     height: 300px;
     width:300px;
+    padding-top:15px;
     border-bottom-right-radius:100px;
 }
 #Onderwijs_main {
@@ -65,9 +67,10 @@ p{
     position: absolute;
     left: 120px;
     top:0px;
-    border-top: 1px solid #B3B3B3;
+    border-top: 2px solid #B3B3B3;
     height: 300px;
     width:240px;
+    padding-top:15px;
 }
 #Onderwijs_main2 {
     background-color: rgb(76,192,161);
@@ -76,6 +79,8 @@ p{
     top:0px;
     height: 300px;
     width:240px;
+    padding-top:15px;
+    border-top: 2px solid #B3B3B3;
 }
 #Onderwijs_sub2 {
     background-color: rgb(76,192,161);
@@ -84,6 +89,8 @@ p{
     left: 600px;
     top: 0px;
     width:150px;
+    padding-top:15px;
+    border-top: 2px solid #B3B3B3;
 }
 #Onderwijs_sub {
     background-color: rgb(76,192,161);
@@ -92,6 +99,8 @@ p{
     left: 750px;
     top: 0px;
     width:150px;
+    border-top: 2px solid #B3B3B3;
+    padding-top:15px;
     border-bottom-right-radius:100px;
 }
 #Bedrijf_main {
@@ -102,6 +111,7 @@ p{
     border-top:2px solid #B3B3B3;
     height: 320px;
     width:480px;
+    padding-top:15px;
 }
 #Bedrijf_sub {
     background-color: rgb(226,202,52);
@@ -110,6 +120,7 @@ p{
     top: 0px;
     height: 320px;
     width:300px;
+    padding-top:15px;
     border-top:2px solid #B3B3B3;
     border-bottom:2px solid #B3B3B3;
     border-bottom-right-radius:100px;
@@ -119,16 +130,20 @@ p{
     position: absolute;
     left: 120px;
     top:0px;
-    height: 320px;
+    height: 305px;
     width:480px;
+    padding-top:15px;
+    border-top:2px solid #B3B3B3;
 }
 #Marketing_sub {
     background-color: rgb(94,206,88);
     position: absolute;
     left: 600px;
     top: 0px;
-    height: 320px;
+    height: 305px;
     width:300px;
+    border-top:2px solid #B3B3B3;
+    padding-top:15px;
     border-bottom-right-radius:100px;
 }
 #HRM_ID{
@@ -181,6 +196,7 @@ p{
     position:absolute;
     height:320px;
     width:120px;
+    border-top:2px solid #B3B3B3;
     border-top-left-radius:100px;
 }
 #Marketing_ID p{
@@ -190,10 +206,11 @@ p{
     text-align: center;
 }
 .pmain {
-    display: inline;
+    display: table;
     padding-left: 7px;
-    padding: 4px;
+    padding: 1px;
     margin: 2px;
+    font-size: 16px;
 }   
 
 .clickable{
