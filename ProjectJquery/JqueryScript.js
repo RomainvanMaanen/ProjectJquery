@@ -12,7 +12,7 @@
         var classes = $(this).attr("class");
         list = classes.split(/ /g);
         for (var int = 0; int < list.length; int++) {
-            $("#" + list[int]).css({ "background-color": "green" });
+            $("#" + list[int]).css({ "background-color": "#dd385a" });
         }
         $(this).css({ "background-color": "greenyellow" });
     });
