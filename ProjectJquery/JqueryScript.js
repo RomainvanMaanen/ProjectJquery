@@ -14,6 +14,6 @@
         for (var int = 0; int < list.length; int++) {
             $("#" + list[int]).css({ "background-color": "#dd385a" });
         }
-        $(this).css({ "background-color": "greenyellow" });
+        $(this).css({ "background-color": "rgb(221, 56, 90)" });
     });
 });
