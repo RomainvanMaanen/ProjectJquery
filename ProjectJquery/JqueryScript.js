@@ -4,27 +4,28 @@
         var allMain = [11, 12, 13, 14, 15, 21, 22, 23, 24, 25, 26, 27, 28, 29, 210, 211, 31, 32, 33, 34, 35, 36, 37, 38, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48];
 
         if ($(this).css('backgroundColor') == "rgb(221, 56, 90)") {
-            console.log(["background is hetzelfde als roze"]);
+            $(".pmain").css({ "background-Color": "transparent" });
+            $(".pmain").css({ "background": "transparent" });
+            console.log("blabla")
         }
         else {
 
+            for (var integer = 0; integer < allSubs.length; integer++) {
+                $(allSubs[integer]).css({ "background-color": "transparent" });
+            }
+            for (var integer = 0; integer < allMain.length; integer++) {
+                $("#" + allMain[integer]).css({ "background-color": "transparent" });
+            }
+            var list;
+            var classes = $(this).attr("class");
+            list = classes.split(/ /g);
+            for (var int = 0; int < list.length; int++) {
+                $("#" + list[int]).css({
+                    "transition": "background-color 0.5s ease",
+                    "background-color": "#dd385a"
+                });
+            }
+            $(this).css({ "background-color": "rgb(221, 56, 90)" });
         }
-
-        for (var integer = 0; integer < allSubs.length; integer++) {
-            $(allSubs[integer]).css({ "background-color": "transparent" });
-        }
-        for (var integer = 0; integer < allMain.length; integer++) {
-            $("#" + allMain[integer]).css({ "background-color": "transparent" });
-        }
-        var list;
-        var classes = $(this).attr("class");
-        list = classes.split(/ /g);
-        for (var int = 0; int < list.length; int++) {
-            $("#" + list[int]).css({
-                "transition": "background-color 0.5s ease",
-                "background-color": "#dd385a"
-            });
-        }
-        $(this).css({ "background-color": "rgb(221, 56, 90)" });
     });
 });
