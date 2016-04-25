@@ -31,28 +31,28 @@ p{
 #HRM_Wrapper {
     background-color:transparent;
     position: relative;
-    height: 200px;
+    height: 300px;
     width: 900px;
     margin-bottom:10px;
 }
 #Onderwijs_Wrapper {
     background-color:transparent;
     position: relative;
-    height: 200px;
+    height: 320px;
     width: 900px;
     margin-bottom:10px;   
 }
 #bedrijf_Wrapper{
     background-color:transparent;
     position: relative;
-    height: 220px;
+    height: 340px;
     width: 900px;
     margin-bottom:10px;
 }
 #Marketing_Wrapper {
     background-color:transparent;
     position: relative;
-    height: 220px;
+    height: 300px;
     width: 900px;
     margin-bottom:200px;
 }
@@ -93,7 +93,7 @@ p{
     position: absolute;
     left: 120px;
     top:0px;
-    height: 300px;
+    height: 400px;
     width:480px;
     border-top: 2px solid #B3B3B3;
     padding-top:15px;
@@ -104,7 +104,7 @@ p{
     position: absolute;
     left: 600px;
     top: 0px;
-    height: 300px;
+    height: 400px;
     width:300px;
     padding-top:15px;
     border-top: 2px solid #B3B3B3;
@@ -116,7 +116,7 @@ p{
     left: 120px;
     top:0px;
     border-top: 2px solid #B3B3B3;
-    height: 300px;
+    height: 420px;
     width:240px;
     padding-top:15px;
 }
@@ -125,7 +125,7 @@ p{
     position: absolute;
     left: 360px;
     top:0px;
-    height: 300px;
+    height: 420px;
     width:240px;
     padding-top:15px;
     border-top: 2px solid #B3B3B3;
@@ -133,7 +133,7 @@ p{
 #Onderwijs_sub2 {
     background-color: rgb(76,192,161);
     position: absolute;
-    height: 300px;
+    height: 420px;
     left: 600px;
     top: 0px;
     width:150px;
@@ -143,7 +143,7 @@ p{
 #Onderwijs_sub {
     background-color: rgb(76,192,161);
     position: absolute;
-    height: 300px;
+    height: 420px;
     left: 750px;
     top: 0px;
     width:150px;
@@ -157,7 +157,7 @@ p{
     left: 120px;
     top:0px;
     border-top:2px solid #B3B3B3;
-    height: 320px;
+    height: 420px;
     width:480px;
     padding-top:15px;
 }
@@ -166,7 +166,7 @@ p{
     position: absolute;
     left: 600px;
     top: 0px;
-    height: 320px;
+    height: 420px;
     width:300px;
     padding-top:15px;
     border-top:2px solid #B3B3B3;
@@ -178,7 +178,7 @@ p{
     position: absolute;
     left: 120px;
     top:0px;
-    height: 305px;
+    height: 400px;
     width:480px;
     padding-top:15px;
     border-top:2px solid #B3B3B3;
@@ -188,7 +188,7 @@ p{
     position: absolute;
     left: 600px;
     top: 0px;
-    height: 305px;
+    height: 400px;
     width:300px;
     border-top:2px solid #B3B3B3;
     padding-top:15px;
@@ -197,7 +197,7 @@ p{
 #HRM_ID{
     background-color: rgb(84,176,203);
     position:absolute;
-    height:300px;
+    height:400px;
     width:120px;
     border:none;
     border:2px solid #B3B3B3;
@@ -213,7 +213,7 @@ p{
 #Onderwijs_ID{
     background-color: rgb(76,192,161);
     position:absolute;
-    height:300px;
+    height:420px;
     width:120px;
     border:2px solid #B3B3B3;
     border-top-left-radius:100px;
@@ -228,7 +228,7 @@ p{
 #bedrijf_ID{
     background-color: rgb(226,202,52);
     position:absolute;
-    height:320px;
+    height:440px;
     width:120px;
     border:2px solid #B3B3B3;
     border-top-left-radius:100px;
@@ -243,7 +243,7 @@ p{
 #Marketing_ID{
     background-color: rgb(94,206,88);
     position:absolute;
-    height:320px;
+    height:415px;
     width:120px;
     border-top:2px solid #B3B3B3;
     border-top-left-radius:100px;
@@ -257,7 +257,7 @@ p{
 .pmain {
     display: table;
     padding-left: 7px;
-    padding: 1px;
+    padding: 8px;
     margin: 2px;
     font-size: 16px;
 }   
