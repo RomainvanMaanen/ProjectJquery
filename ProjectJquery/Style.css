@@ -292,10 +292,10 @@ p{
     padding: 20px;
     z-index: 2;
     display: none;
-    top:300px;
-    left:750px;
+    top:43%;
+    left:43%;
     border-top-left-radius:100px;
-    border-top-right-radius:100px;
+    border-bottom-right-radius: 100px;
 }
 #intro_text{
     color:black;
@@ -306,11 +306,11 @@ p{
     padding-left:10px;
 }
 #Information_website {
-    position: absolute;
+    position: fixed;
     height: auto;
     width: 220px;
+    border-top-right-radius:100px;
     border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
     -webkit-transform: rotate(90deg); 
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
