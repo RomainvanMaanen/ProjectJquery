@@ -66,10 +66,10 @@ $(document).ready(function () {
 
             for (var int = 0; int < list.length; int++) {
                 if (timeout == 0) {
-                    timeout = 1000;
+                    timeout = 100;
                 }
                 test(list[int], timeout,3);
-                timeout + 1000;
+                timeout + 100;
             }
         }
     });
