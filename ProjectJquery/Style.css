@@ -90,6 +90,7 @@ p{
     top:0px;
     height: 300px;
     width:480px;
+    border-top: 2px solid #B3B3B3;
     padding-top:15px;
 }
 
@@ -101,6 +102,7 @@ p{
     height: 300px;
     width:300px;
     padding-top:15px;
+    border-top: 2px solid #B3B3B3;
     border-bottom-right-radius:100px;
 }
 #Onderwijs_main {
@@ -193,6 +195,7 @@ p{
     height:300px;
     width:120px;
     border:none;
+    border:2px solid #B3B3B3;
     border-top-left-radius:100px;
 }
 #HRM_ID p{
