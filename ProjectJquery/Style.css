@@ -1,8 +1,13 @@
 ﻿body {
-    background-image:url("Files/background.png");
+    /*background-image:url("Files/background.png");*/
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
+    background: #f2f5f6;
+    background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 66%, #c8d7dc 100%);
+    background: -webkit-linear-gradient(top, #f2f5f6 0%,#e3eaed 66%,#c8d7dc 100%);
+    background: linear-gradient(to bottom, #f2f5f6 0%,#e3eaed 66%,#c8d7dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 );
 }
 p{
     color:white;
@@ -260,4 +265,6 @@ p{
     -moz-user-select: none;    
     -ms-user-select: none;      
     user-select: none;
+    background:transparent;
+    transition: background-color 0.5s ease;
 }
