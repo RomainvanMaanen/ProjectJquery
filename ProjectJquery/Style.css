@@ -33,28 +33,28 @@ p{
     background-color:transparent;
     position: relative;
     height: 230px;
-    width: 900px;
+    width: 950px;
     margin-bottom:10px;
 }
 #Onderwijs_Wrapper {
     background-color:transparent;
     position: relative;
-    height: 320px;
-    width: 900px;
+    height: 230px;
+    width: 950px;
     margin-bottom:10px;   
 }
 #bedrijf_Wrapper{
     background-color:transparent;
     position: relative;
-    height: 340px;
-    width: 900px;
+    height: 230px;
+    width: 950px;
     margin-bottom:10px;
 }
 #Marketing_Wrapper {
     background-color:transparent;
     position: relative;
-    height: 300px;
-    width: 900px;
+    height: 230px;
+    width: 950px;
     margin-bottom:200px;
 }
 #CVO{
@@ -106,10 +106,10 @@ p{
     left: 600px;
     top: 0px;
     height: 400px;
-    width:300px;
-    padding-top:15px;
+    width: 400px;
+    padding-top: 15px;
     border-top: 2px solid #B3B3B3;
-    border-bottom-right-radius:100px;
+    border-bottom-right-radius: 100px;
 }
 #Onderwijs_main {
     background-color: rgb(76,192,161);
@@ -135,22 +135,22 @@ p{
     background-color: rgb(76,192,161);
     position: absolute;
     height: 420px;
-    left: 600px;
+    left: 850px;
     top: 0px;
-    width:150px;
-    padding-top:15px;
+    width: 150px;
+    padding-top: 15px;
     border-top: 2px solid #B3B3B3;
 }
 #Onderwijs_sub {
     background-color: rgb(76,192,161);
     position: absolute;
     height: 420px;
-    left: 750px;
+    left: 600px;
     top: 0px;
-    width:150px;
+    width: 250px;
     border-top: 2px solid #B3B3B3;
-    padding-top:15px;
-    border-bottom-right-radius:100px;
+    padding-top: 15px;
+    border-bottom-right-radius: 100px;
 }
 #Bedrijf_main {
     background-color: rgb(226,202,52);
@@ -168,11 +168,11 @@ p{
     left: 600px;
     top: 0px;
     height: 420px;
-    width:300px;
-    padding-top:15px;
-    border-top:2px solid #B3B3B3;
-    border-bottom:2px solid #B3B3B3;
-    border-bottom-right-radius:100px;
+    width: 400px;
+    padding-top: 15px;
+    border-top: 2px solid #B3B3B3;
+    border-bottom: 2px solid #B3B3B3;
+    border-bottom-right-radius: 100px;
 }
 #Marketing_main {
     background-color: rgb(94,206,88);
@@ -190,10 +190,10 @@ p{
     left: 600px;
     top: 0px;
     height: 400px;
-    width:300px;
-    border-top:2px solid #B3B3B3;
-    padding-top:15px;
-    border-bottom-right-radius:100px;
+    width: 400px;
+    border-top: 2px solid #B3B3B3;
+    padding-top: 15px;
+    border-bottom-right-radius: 100px;
 }
 #HRM_ID{
     background-color: rgb(84,176,203);
@@ -285,12 +285,12 @@ p{
     display: none;
 }
 #popup_box {
-    position: absolute;
+    position: fixed;
     background: #fff;
     height:auto;
     width: 300px;
     margin: auto;
-    padding: 20px;
+    padding: 35px;
     z-index: 2;
     display: none;
     top:43%;
@@ -301,6 +301,7 @@ p{
 #intro_text{
     color:black;
     padding-left:10px;
+    font-size: 16px;
 }
 #intro_main{
     font-family: Arial,sans-serif;
