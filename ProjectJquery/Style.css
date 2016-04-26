@@ -1,6 +1,5 @@
 ﻿@font-face{font-family: Bree-Serif-Light;src:url("Files/Bree Serif Light.otf");}
 body {
-    /*background-image:url("Files/background.png");*/
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
@@ -135,7 +134,7 @@ p{
     background-color: rgb(76,192,161);
     position: absolute;
     height: 420px;
-    left: 600px;
+    left: 750px;
     top: 0px;
     width:150px;
     padding-top:15px;
@@ -145,7 +144,7 @@ p{
     background-color: rgb(76,192,161);
     position: absolute;
     height: 420px;
-    left: 750px;
+    left: 600px;
     top: 0px;
     width:150px;
     border-top: 2px solid #B3B3B3;
@@ -285,7 +284,7 @@ p{
     display: none;
 }
 #popup_box {
-    position: absolute;
+    position: fixed;
     background: #fff;
     height:auto;
     width: 300px;
