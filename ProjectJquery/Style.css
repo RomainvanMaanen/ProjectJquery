@@ -61,7 +61,7 @@ p{
     left: 170px;
     top:0px;
     height: 50px;
-    width:870px;
+    width:820px;
     padding-top:15px;
     border-top-left-radius:100px;
     border-top-right-radius:100px;
@@ -94,7 +94,7 @@ p{
     top:0px;
     height: 430px;
     width:1050px;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #1A1A1A;
     padding-top:15px;
 }
 
@@ -106,7 +106,7 @@ p{
     height: 430px;
     width:710px;
     padding-top: 15px;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #1A1A1A;
     border-bottom-right-radius: 100px;
 }
 #HRM_sub2 {
@@ -125,7 +125,7 @@ p{
     position: absolute;
     left: 170px;
     top:0px;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #1A1A1A;
     height: 550px;
     width:317px;
     padding-top:15px;
@@ -138,7 +138,7 @@ p{
     height: 420px;
     width:316px;
     padding-top:15px;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #1A1A1A;
 }
 #Onderwijs_main3 {
     background-color: rgb(76,192,161);
@@ -157,7 +157,7 @@ p{
     left: 990px;
     top: 0px;
     width: 275px;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #1A1A1A;
     padding-top: 15px;
 }
 #Onderwijs_sub2 {
@@ -178,7 +178,7 @@ p{
     top: 0px;
     width: 275px;
     padding-top: 15px;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #1A1A1A;
 }
 #Bedrijf_main {
     background-color: rgb(226,202,52);
@@ -193,9 +193,9 @@ p{
 #Bedrijf_main2 {
     background-color: rgb(226,202,52);
     position: absolute;
-    left: 360px;
+    left: 410px;
     top:0px;
-    border-top:2px solid #B3B3B3;
+    border-top:2px solid #1A1A1A;
     height: 420px;
     width: 630px;
     padding-top:15px;
@@ -219,7 +219,7 @@ p{
     height: 420px;
     width: 475px;
     padding-top: 15px;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #1A1A1A;
     border-bottom: 2px solid #B3B3B3;
     border-bottom-right-radius: 100px;
 }
@@ -236,12 +236,12 @@ p{
 #Marketing_main2 {
     background-color: rgb(94,206,88);
     position: absolute;
-    left: 360px;
+    left: 410px;
     top:0px;
     height: 240px;
     width:630px;
     padding-top:15px;
-    border-top:2px solid #B3B3B3;
+    border-top:2px solid #1A1A1A;
 }
 #Marketing_sub {
     background-color: rgb(94,206,88);
@@ -261,7 +261,7 @@ p{
     top: 0px;
     height: 240px;
     width: 475px;
-    border-top: 2px solid #B3B3B3;
+    border-top: 2px solid #1A1A1A;
     padding-top: 15px;
     border-bottom-right-radius: 100px;
 }
@@ -315,8 +315,8 @@ p{
     background-color: rgb(94,206,88);
     position:absolute;
     height:255px;
-    width:120px;
-    border-top:2px solid #B3B3B3;
+    width:170px;
+    border-top:2px solid #1A1A1A;
     border-top-left-radius:100px;
 }
 #Marketing_ID p{
