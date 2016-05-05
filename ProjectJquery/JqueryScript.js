@@ -48,7 +48,7 @@
             $(this).css({
                 "background-color": "#dd385a",
                 "border-radius": "12px",
-                "box-shadow": "5px 5px #91000E"
+                "box-shadow": "3px 3px #91000E"
             });
 
             var offset = 0;
@@ -59,7 +59,7 @@
                             "transition": "background-color 0.5s ease",
                             "background-color": "#dd385a",
                             "border-radius": "12px",
-                            "box-shadow": "5px 5px #91000E"
+                            "box-shadow": "3px 3px #91000E"
                         });
                     }, offset);
                     offset = offset + 200;
