@@ -321,6 +321,7 @@ p{
     height:185px;
     width:170px;
     border-top:2px solid #1A1A1A;
+    border-left:2px solid #1A1A1A;
     border-top-left-radius:100px;
 }
 #Marketing_ID p{
