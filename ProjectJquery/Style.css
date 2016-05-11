@@ -16,9 +16,12 @@ p{
 }
 #MainWrapper {
     margin: auto;
+    margin-top:40px;
     height: auto;
-    width: 1450px;
+    width: 1470px;
     background-color: transparent;
+    border-bottom-right-radius:100px;
+    border-top-right-radius:100px;
 }
 #CVO_Wrapper{
     background-color:transparent;
@@ -52,7 +55,7 @@ p{
 #Marketing_Wrapper {
     background-color:transparent;
     position: relative;
-    height: 200px;
+    height: 193px;
     width: 1650px;
 }
 #CVO{
@@ -234,6 +237,7 @@ p{
     width:480px;
     padding-top:15px;
     border-top:8px solid #3EBE37;
+    border-bottom:8px solid #3EBE37
 }
 #Marketing_main2 {
     background-color: rgb(94,206,88);
@@ -244,6 +248,7 @@ p{
     width:435px;
     padding-top:15px;
     border-top:8px solid #3EBE37;
+    border-bottom:8px solid #3EBE37
 }
 #Marketing_sub {
     background-color: rgb(94,206,88);
@@ -256,6 +261,7 @@ p{
     border-left: 3px solid #3EBE37;
     padding-top: 15px;
     border-bottom-right-radius: 100px;
+    border-bottom:8px solid #3EBE37
 }
 #Marketing_sub2 {
     background-color: rgb(94,206,88);
@@ -267,6 +273,7 @@ p{
     border-top: 8px solid #3EBE37;
     padding-top: 15px;
     border-bottom-right-radius: 100px;
+    border-bottom:8px solid #3EBE37;
 }
 #HRM_ID{
     background-color: rgb(84,176,203);
@@ -322,6 +329,7 @@ p{
     border-top:8px solid #3EBE37;
     border-left:8px solid #3EBE37;
     border-top-left-radius:100px;
+    border-bottom:8px solid #3EBE37
 }
 #Marketing_ID p{
     height:18px;
@@ -383,21 +391,26 @@ p{
 }
 #Information_website {
     position: fixed;
-    height: auto;
-    width: 220px;
-    border-top-right-radius:100px;
-    border-top-left-radius: 100px;
-    -webkit-transform: rotate(90deg); 
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: 500px;
-    left: -70;
-    background-color: gray;
-    display: none;
-    border:2px solid #1A1A1A;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    padding: 20px 13px 20px 28px;
+    top: 0;
+    font-size: 20px;
+    left: 0;
+    background-color: #CBCBCB;
+    color: #fff;
+    border-bottom-right-radius: 200px;
+    z-index: 1000;
+    display:none;
 }
+#Information_website:hover {
+    background-color: #898989;
+}
+Information_website i{
+    color:white;
+}
+
 #Info_sub{
     padding-left: 37px;
 }
